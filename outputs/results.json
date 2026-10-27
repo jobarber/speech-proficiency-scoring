@@ -1,0 +1,107 @@
+{
+  "heads": {
+    "accuracy": 0.5401696094625925,
+    "fluency": 0.6513469096000973,
+    "prosodic": 0.6231834790984384,
+    "total": 0.6758774084355603
+  },
+  "human": {
+    "accuracy": 0.7316546872173187,
+    "fluency": 0.768296758480675,
+    "prosodic": 0.7580036561171427,
+    "total": 0.7768231835525896
+  },
+  "comparison": {
+    "pearson": {
+      "Mean": NaN,
+      "Speech rate only": 0.3941,
+      "Ridge, all features": 0.6797,
+      "Gradient boosting, all features": 0.6967,
+      "Multi-head (shipped)": 0.6759
+    },
+    "qwk": {
+      "Mean": 0.0,
+      "Speech rate only": 0.2659,
+      "Ridge, all features": 0.6397,
+      "Gradient boosting, all features": 0.6431,
+      "Multi-head (shipped)": 0.636
+    },
+    "exact_agree": {
+      "Mean": 0.2316,
+      "Speech rate only": 0.3088,
+      "Ridge, all features": 0.4084,
+      "Gradient boosting, all features": 0.4144,
+      "Multi-head (shipped)": 0.4036
+    },
+    "adjacent_agree": {
+      "Mean": 0.684,
+      "Speech rate only": 0.752,
+      "Ridge, all features": 0.8464,
+      "Gradient boosting, all features": 0.8632,
+      "Multi-head (shipped)": 0.846
+    },
+    "spearman": {
+      "Mean": NaN,
+      "Speech rate only": 0.416,
+      "Ridge, all features": 0.6708,
+      "Gradient boosting, all features": 0.6871,
+      "Multi-head (shipped)": 0.6748
+    },
+    "rmse": {
+      "Mean": 1.5515,
+      "Speech rate only": 1.4263,
+      "Ridge, all features": 1.1441,
+      "Gradient boosting, all features": 1.1131,
+      "Multi-head (shipped)": 1.1467
+    },
+    "mae": {
+      "Mean": 1.1902,
+      "Speech rate only": 1.0754,
+      "Ridge, all features": 0.8398,
+      "Gradient boosting, all features": 0.813,
+      "Multi-head (shipped)": 0.8468
+    },
+    "pearson_lo": {
+      "Mean": NaN,
+      "Speech rate only": 0.305,
+      "Ridge, all features": 0.6147,
+      "Gradient boosting, all features": 0.6264,
+      "Multi-head (shipped)": 0.6132
+    },
+    "pearson_hi": {
+      "Mean": NaN,
+      "Speech rate only": 0.4758,
+      "Ridge, all features": 0.7317,
+      "Gradient boosting, all features": 0.7493,
+      "Multi-head (shipped)": 0.7283
+    }
+  },
+  "matrix": {
+    "accuracy": {
+      "delivery": 0.5344,
+      "accuracy": 0.5463,
+      "prosody": 0.2136,
+      "all": 0.6597
+    },
+    "fluency": {
+      "delivery": 0.6587,
+      "accuracy": 0.5334,
+      "prosody": 0.2308,
+      "all": 0.7283
+    },
+    "prosodic": {
+      "delivery": 0.6227,
+      "accuracy": 0.5487,
+      "prosody": 0.2087,
+      "all": 0.7142
+    },
+    "total": {
+      "delivery": 0.5607,
+      "accuracy": 0.5569,
+      "prosody": 0.214,
+      "all": 0.6822
+    }
+  },
+  "conformal_q": 1.8320996608066327,
+  "test_coverage": 0.908
+}

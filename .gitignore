@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.pytest_cache/
+.env
+data/
+outputs/alignments.jsonl
+extract.log
+outputs/scores_*.csv
